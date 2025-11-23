@@ -7,14 +7,31 @@ This project also promotes accountability and better planning. It's practical fo
 #Overview
 This project is developed in jupyter notebook to help students keep track of their assignments, due dates, and grades. Instead of relying on scattered notes or forgetting important deadlines, students can store everything in one place and even get their GPA calculated automatically. The program saves data for future use, reminds users of overdue tasks, and keeps academic records organized using just four standard Python libraries. It’s a practical, everyday tool meant to make student life easier and more manageable.
 #Requirement Analysis
+Functional analysis-
 Add assignments with name, due date, and grade.
 Calculate GPA and show performance reports.
 Display pending and overdue tasks.
 Save and load data within the notebook.
+Non-Functional analysis-
 Easy to use in Jupyter Notebook.
 Clear, organized code cells.
 Uses only standard libraries (statistics, pickle, datetime, os).
 Portable and works on any system with Jupyter.
+#Technologies/tools used 
+Python: Core programming language used to build the entire tracker.
+Jupyter Notebook: Interactive environment for writing, running, and testing the code step-by-step.
+Standard Python Libraries:
+statistics for GPA calculation
+pickle for saving and loading data
+datetime for handling due dates
+os for file checking and management
+Markdown: Used for documenting the project inside the notebook and repository.
+#Steps to install and run the programs
+1.Install Python and Jupyter Notebook.
+2. Open the notebook where the code is written.
+3. Run the import cell to load statistics, pickle, datetime, and os.
+4. Run the cell that loads/saves data to initialize the assignment list.
+5. Run the menu cell and follow the options to add assignments, calculate GPA, or view reports.
 #Key Algorithms
 When a student adds an assignment, the program collects the details, checks if the date is valid, and saves it safely for later use.
 To calculate the GPA, the program gathers all the grades and simply finds their average.
