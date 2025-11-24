@@ -44,4 +44,5 @@ statistics: Computes mean for GPA calculations.
 pickle: Handles data persistence.
 datetime: Validates and compares dates.
 os: Checks for file existence
-
+# project report :-
+[Programming.pdf](https://github.com/user-attachments/files/23711907/Programming.pdf)
